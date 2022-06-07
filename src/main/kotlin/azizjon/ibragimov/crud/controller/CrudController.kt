@@ -1,6 +1,11 @@
 package azizjon.ibragimov.crud.controller
 
 
-data class CrudController(
-    val name: String
-)
+class CrudController(private val name: String) {
+
+
+
+    fun getData(text: String): String {
+       return "$text $name Это kotlin function"
+    }
+}

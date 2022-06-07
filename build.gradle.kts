@@ -23,8 +23,8 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
-    runtimeOnly("mysql.mysql-connector-java:8.0.15")
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+//    runtimeOnly("mysql.mysql-connector-java:8.0.15")
+//    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
 //    python in kotlin
     implementation("org.python:jython-slim:2.7.2")

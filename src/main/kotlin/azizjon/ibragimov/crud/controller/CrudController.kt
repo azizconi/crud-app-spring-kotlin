@@ -1,6 +1,6 @@
 package azizjon.ibragimov.crud.controller
 
 
-
-class CrudController {
-}
+data class CrudController(
+    val name: String
+)
